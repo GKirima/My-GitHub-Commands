@@ -20,3 +20,5 @@ gh auth status
 
 # - Create a new repo 
 gh repo create my-new-repo --public --source=. --remote=origin --push
+gh repo create my-github-commands --public --source=. --remote=origin --push
+git remote add origin https://github.com/Gkirima/My-GitHub-Commands.git
