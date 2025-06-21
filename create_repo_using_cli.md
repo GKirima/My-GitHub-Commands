@@ -1,24 +1,24 @@
-## open Gitbash or vs code editor terminal
-Navigate to the folder you want to turn into a repository(or create one)
-mkdir my-project
-cd my-project
-pwd
+## open Gitbash or vs code editor terminal<br>
+Navigate to the folder you want to turn into a repository(or create one)<br>
+mkdir my-project<br>
+cd my-project<br>
+pwd<br>
 
-## Initialize git
-git init
+## Initialize git<br>
+git init<br>
 
-# Create a README.md (optional but recommended)
-echo "# My Project" > README.md
+# Create a README.md (optional but recommended)<br>
+echo "# My Project" > README.md<br>
 
-# - Stage and commit:
-git add . 
-git commit -m "Initial commit"
-# - Make sure you're authenticated:
-gh auth login
-# Follow the interactive prompts to complete authentication.
-gh auth status
+# - Stage and commit:<br>
+git add . <br>
+git commit -m "Initial commit"<br>
+# - Make sure you're authenticated:<br>
+gh auth login<br>
+# Follow the interactive prompts to complete authentication.<br>
+gh auth status<br>
 
-# - Create a new repo 
-gh repo create my-new-repo --public --source=. --remote=origin --push
-gh repo create my-github-commands --public --source=. --remote=origin --push
-git remote add origin https://github.com/Gkirima/My-GitHub-Commands.git
+# - Create a new repo <br>
+gh repo create my-new-repo --public --source=. --remote=origin --push<br>
+gh repo create my-github-commands --public --source=. --remote=origin --push<br>
+git remote add origin https://github.com/Gkirima/My-GitHub-Commands.git<br>

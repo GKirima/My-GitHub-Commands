@@ -1,35 +1,35 @@
-# Check if a remote is set
-# Run:
-git remote -v
+# Check if a remote is set<br>
+# Run:<br>
+git remote -v<br>
 
-If nothing shows up, it means no remote is configured yet.
-# Add the remote
-# You’ll need to link your local repo to the GitHub (or other) remote. Use:
-git remote add origin https://github.com/your-username/your-repo.git
+If nothing shows up, it means no remote is configured yet.<br>
+# Add the remote<br>
+# You’ll need to link your local repo to the GitHub (or other) remote. Use:<br>
+git remote add origin https://github.com/your-username/your-repo.git<br>
 
-# Replace the URL with your actual repository’s HTTPS or SSH link.
+# Replace the URL with your actual repository’s HTTPS or SSH link.<br>
 
-Push your code
-# Now try:
-git push -u origin master
+Push your code<br>
+# Now try:<br>
+git push -u origin master<br>
 
-# If you’re using the main branch instead of master, just swap that in:
-git push -u origin main
+# If you’re using the main branch instead of master, just swap that in:<br>
+git push -u origin main<br>
 
 
-## “Unable to add remote 'origin'”
-git remote -v
+## “Unable to add remote 'origin'”<br>
+git remote -v<br>
 
-If you see origin listed, that’s the culprit.
-#  Remove the existing remote
-git remote remove origin
+If you see origin listed, that’s the culprit.<br>
+#  Remove the existing remote<br>
+git remote remove origin<br>
 
-# Re-run your gh repo create command (optional)
-# Or, if the repo is already created and you just want to link it:
-git remote add origin https://github.com/your-username/your-repo.git
+# Re-run your gh repo create command (optional)<br>
+# Or, if the repo is already created and you just want to link it:<br>
+git remote add origin https://github.com/your-username/your-repo.git<br>
 
-# Then push:
-git push -u origin main
+# Then push:<br>
+git push -u origin main<br>
 
 
 
